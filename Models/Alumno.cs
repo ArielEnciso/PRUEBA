@@ -24,7 +24,7 @@ namespace ProyectoASPMVC.Models
         public string Nombre { get; set; }
         [Required]
         [StringLength(50,
-                      ErrorMessage = "{0} debe tener al menos {2} caracteres de longitud",
+                      ErrorMessage = "{0} debe tener al menos {2} caracteres de longitud!",
                       MinimumLength = 3)]
         [Display(Name = "Apellido Completo")]
         public string Apellido { get; set; }
